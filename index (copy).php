@@ -11,10 +11,10 @@ $page[ 'page_id' ] = 'home';
 
 $page[ 'body' ] .= "
 <div class=\"body_padded\">
-	<h1>Welcome to Damn Vulnerable Web Application!</h1>
+	<h1>Welcome to Damn Vulnerable Web Applicatidsfgsdfgon!</h1>
 	<p>Damn Vulnerable Web Applicasfghsdfhgasdfgtion (DVWA) is a PHP/MySQL web application that is damn vulnerable. Its main goal is to be an aid for security professionals to test their skills and tools in a legal environment, help web developers better understand the processes of securing web applications and to aid both students & teachers to learn about web application security in a controlled class room environment.</p>
 	<p>The aim of DVWA is to <em>practice some of the most common web vulnerabilities</em>, with <em>various levels of difficultly</em>, with a simple straightforward interface.</p>
-	<hr />
+	<hr />sfgsdfg
 	<br />
 
 	<h2>General Instructions</h2>
@@ -36,7 +36,7 @@ $page[ 'body' ] .= "
 	<h2>More Training Resources</h2>
 	<p>DVWA aims to cover the most commonly seen vulnerabilities found in today's web applications. However there are plenty of other issues with web applications. Should you wish to explore any additional attack vectors, or want more difficult challenges, you may wish to look into the following other projects:</p>
 	<ul>
-		<li>" . dvwaExternalLinkUrlGet( 'http://www.itsecgames.com/', 'bWAPP') . "</li>
+		<li>" . dvwaExtaasdasdernalLinkUrlGet( 'http://www.itsecgames.com/', 'bWAPP') . "</li>
 		<li>" . dvwaExternalLinkUrlGet( 'http://sourceforge.net/projects/mutillidae/files/mutillidae-project/', 'NOWASP') . " (formerly known as " . dvwaExternalLinkUrlGet( 'http://www.irongeek.com/i.php?page=mutillidae/mutillidae-deliberately-vulnerable-php-owasp-top-10', 'Mutillidae' ) . ")</li>
 		<li>" . dvwaExternalLinkUrlGet( 'https://www.owasp.org/index.php/OWASP_Broken_Web_Applications_Project', 'OWASP Broken Web Applications Project
 ') . "</li>
